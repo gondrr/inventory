@@ -1,0 +1,9 @@
+---
+all:
+  children:
+    k8s:
+      hosts:
+        k8s-01:
+          ansible_host: 10.160.161.184
+        k8s-02:
+          ansible_host: 10.160.161.185
